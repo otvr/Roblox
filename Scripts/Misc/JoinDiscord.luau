@@ -2,7 +2,7 @@ if not request then
 	return false
 end
 
-Local HttpService = game:GetService("HttpService")
+local HttpService = game:GetService("HttpService")
 
 local response = request({
     Url = 'http://127.0.0.1:6463/rpc?v=1',
